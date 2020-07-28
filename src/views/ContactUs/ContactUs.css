@@ -1,0 +1,31 @@
+.content{
+    list-style-type: none;
+}
+
+.content ul{
+    list-style-type: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.content p {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content #igmedia{
+    transform: scale(.50,.50);
+    
+}
+
+.content #limedia{
+    transform: scale(.50, .50);
+    
+    }
+
+
+
