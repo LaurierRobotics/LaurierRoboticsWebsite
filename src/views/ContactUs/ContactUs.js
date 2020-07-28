@@ -46,7 +46,7 @@ class ContactUs extends React.Component {
           <br />
           <p>Follow and connect with us on Instagram and LinkedIn to stay up to date on the latest news !</p>
           <ul>
-            <li>
+            <li id="imgStyle">
               <a href="https://www.instagram.com/laurierrobotics/" target="blank">
                 <img id='igmedia' src={IG} alt="Instagram logo" />
               </a>

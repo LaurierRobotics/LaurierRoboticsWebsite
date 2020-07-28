@@ -175,8 +175,12 @@ class MeetTheTeam extends React.Component {
                     </h3>
 
                     <h3>
-                      Team Members: Not Available ATM
+                      Team Members:
                     </h3>
+                    <ul id="teamNames">
+                      <li> Fullstack Engineer: Saif Al-Din Ali </li>
+                      <li> Fullstack Engineer: Alex Polus</li>
+                    </ul>
                   </div>
                 </CardBody>
               </Card>

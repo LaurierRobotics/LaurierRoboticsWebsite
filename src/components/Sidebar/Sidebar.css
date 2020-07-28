@@ -1,0 +1,9 @@
+#imageLogo {
+    margin-left: 20px;
+    width: 45px;
+    height: 45px;
+}
+#logo {
+    display: flex;
+    flex-direction: row;
+}

@@ -19,13 +19,17 @@
 
 .content #igmedia{
     transform: scale(.50,.50);
-    
+
 }
 
 .content #limedia{
     transform: scale(.50, .50);
-    
-    }
+}
+
+#imgStyle {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
