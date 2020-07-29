@@ -19,20 +19,6 @@ class JoinTheTeam extends React.Component {
             </thead>
             <tbody>
               <tr>
-                <th scope="row">Full-Stack Engineer</th>
-                <td>Software</td>
-                <td>JS, React, React Bootstrap</td>
-                <td>Maintain and update website</td>
-                <td>baig9620@mylaurier.ca</td>
-              </tr>
-              <tr>
-                <th scope="row">Full-Stack Engineer</th>
-                <td>Software</td>
-                <td>JS, React, React Bootstrap</td>
-                <td>Maintain and update website</td>
-                <td>baig9620@mylaurier.ca</td>
-              </tr>
-              <tr>
                 <th scope="row">Software Engineer</th>
                 <td>Software</td>
                 <td>N/A</td>
