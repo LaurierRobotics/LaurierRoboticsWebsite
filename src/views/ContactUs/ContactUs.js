@@ -1,27 +1,9 @@
 import IG from 'assets/img/IG.png';
 import Link from 'assets/img/Link.png';
-import axios from 'axios';
 import React from "react";
 import { } from "./ContactUs.css";
 class ContactUs extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      name: '',
-      email: '',
-      message: ''
-    }
-    this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
-  }
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.c })
-  }
-  async handleSubmit(e) {
-    e.preventDefault()
-    const { name, email, message } = this.state
-    const form = await axios.post('/api/form', { name, email, message })
-  }
+
   render() {
     return (
       <>

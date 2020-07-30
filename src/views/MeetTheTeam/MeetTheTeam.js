@@ -178,8 +178,8 @@ class MeetTheTeam extends React.Component {
                       Team Members:
                     </h3>
                     <ul id="teamNames">
-                      <li> Fullstack Engineer: Saif Al-Din Ali </li>
-                      <li> Fullstack Engineer: Alex Polus</li>
+                      <li> Saif Al-Din Ali </li>
+                      <li> Alex Polus</li>
                     </ul>
                   </div>
                 </CardBody>
