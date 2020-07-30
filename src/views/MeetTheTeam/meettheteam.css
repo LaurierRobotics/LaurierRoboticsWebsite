@@ -21,4 +21,16 @@
     color: rgb(221, 189, 7);
 }
 
+.author #teamNames {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display:inline-block;
+    margin: 10px;
+    padding: 3px;
+}
+.author li {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+ }
 

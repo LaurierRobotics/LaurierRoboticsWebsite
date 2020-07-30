@@ -223,8 +223,15 @@ class MeetTheTeam extends React.Component {
                     </h3>
 
                     <h3>
-                      Team Members: Not Available ATM
+                      Team Members:
                     </h3>
+                    <ul id="teamNames">
+                      <li>Monkia Khamphavong</li>
+                      <li>Sienne Lee</li>
+                      <li>Amber Dsilva</li>
+                      <li>Kiara Yllescas</li>
+                      <li>Melissa Pinto</li>
+                    </ul>
                   </div>
                 </CardBody>
               </Card>
