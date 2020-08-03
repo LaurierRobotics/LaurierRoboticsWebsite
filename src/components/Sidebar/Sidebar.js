@@ -1,10 +1,11 @@
 // javascript plugin used to create scrollbars on windows
+// import { NULL } from "node-sass";
+//import Robotics from '../../assets/img/Robotics.png';
+import logo from 'assets/img/logo.png';
 import PerfectScrollbar from "perfect-scrollbar";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Nav } from "reactstrap";
-// import { NULL } from "node-sass";
-import Robotics from '../../assets/img/Robotics.png';
 import { } from './Sidebar.css';
 var ps;
 
@@ -53,7 +54,7 @@ class Sidebar extends React.Component {
           >
             Laurier Robotics
           </a>
-          <img id="imageLogo" src={Robotics} alt="Logo" />
+          <img id="imageLogo" src={logo} alt="Logo" />
         </div>
         <div className="sidebar-wrapper" ref={this.sidebar}>
           <Nav>

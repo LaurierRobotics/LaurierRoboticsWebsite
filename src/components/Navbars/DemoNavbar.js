@@ -1,4 +1,5 @@
-import Robotics from "assets/img/Robotics.png";
+//import Robotics from "assets/img/Robotics.png";
+import logo from 'assets/img/logo.png';
 import React from "react";
 import {
   Container, Navbar,
@@ -111,7 +112,7 @@ class Header extends React.Component {
             <NavbarBrand>{this.getBrand()}</NavbarBrand>
           </div>
           <div className="justify-content-end">
-            <img id='logoMedia' src={Robotics} />
+            <img id='logoMedia' src={logo} />
           </div>
         </Container>
       </Navbar >
