@@ -40,20 +40,6 @@ class JoinTheTeam extends React.Component {
                 <td>baig9620@mylaurier.ca</td>
               </tr>
               <tr>
-                <th scope="row">Software Engineer</th>
-                <td>Software</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>baig9620@mylaurier.ca</td>
-              </tr>
-              <tr>
-                <th scope="row">Software Engineer</th>
-                <td>Software</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>baig9620@mylaurier.ca</td>
-              </tr>
-              <tr>
                 <th scope="row">Hardware Engineer</th>
                 <td>Hardware</td>
                 <td>N/A</td>
@@ -73,27 +59,6 @@ class JoinTheTeam extends React.Component {
                 <td>N/A</td>
                 <td>N/A</td>
                 <td>kawa0080@mylaurier.ca</td>
-              </tr>
-              <tr>
-                <th scope="row">Hardware Engineer</th>
-                <td>Hardware</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>kawa0080@mylaurier.ca</td>
-              </tr>
-              <tr>
-                <th scope="row">Hardware Engineer</th>
-                <td>Hardware</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>kawa0080@mylaurier.ca</td>
-              </tr>
-              <tr>
-                <th scope="row">Operations</th>
-                <td>Finance</td>
-                <td>N/A</td>
-                <td>Keep record of reciepts and help with budget. Among of responsiblities which the VP of Finance will tell you.</td>
-                <td>dang1370@mylaurier.ca</td>
               </tr>
               <tr>
                 <th scope="row">Communication/Social Media</th>
