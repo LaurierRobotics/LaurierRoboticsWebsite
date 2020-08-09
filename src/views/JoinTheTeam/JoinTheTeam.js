@@ -60,13 +60,6 @@ class JoinTheTeam extends React.Component {
                 <td>N/A</td>
                 <td>kawa0080@mylaurier.ca</td>
               </tr>
-              <tr>
-                <th scope="row">Communication/Social Media</th>
-                <td>Finance</td>
-                <td>N/A</td>
-                <td>Assist with email duties. Constantly uploading to social media. Content includes: meetings, progress in work, alerts/notifications, and more.</td>
-                <td>dang1370@mylaurier.ca</td>
-              </tr>
             </tbody>
           </table>
           <p style={{ fontFamily: "'Roboto', sans- serif" }}>Feel free to Email the address in the "EMAIL" column if you are interested in any of the positions available. If there are no positions listed, we still welcome you to reach out to us at
