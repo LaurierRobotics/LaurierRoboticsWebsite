@@ -1,3 +1,4 @@
+import logo from 'assets/img/logo.png';
 import React from "react";
 import "./homepage.css";
 
@@ -6,11 +7,12 @@ class HomePage extends React.Component {
     return (
       <>
         <div className="content">
-          {/* CODE GOES HERE INSIDE THE <DIV> */}
-          <h1>Wilfrid Laurier University Robotics
+          <div id="logo-div">
+            <img id="logo-image" src={logo} alt="Logo" />
+          </div>
+          <h1 id="heading">Wilfrid Laurier University Robotics
             <p>Found in 2016</p>
           </h1>
-
         </div>
       </>
     );

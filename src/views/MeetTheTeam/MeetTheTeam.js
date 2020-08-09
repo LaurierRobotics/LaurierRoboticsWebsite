@@ -64,7 +64,7 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/mike.jpg")}
+                      src={require("assets/img/mathuran.jpeg")}
                     />
 
                     <h2>Mathuran Mangaleswaran <br /> Co-President</h2>
@@ -107,7 +107,7 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/mike.jpg")}
+                      src={require("assets/img/lakshya.jpeg")}
                     />
 
                     <h2>Lakshya Kawatra <br /> VP of Hardware</h2>

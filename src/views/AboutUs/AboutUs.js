@@ -1,4 +1,4 @@
-import logo from 'assets/img/Robotics.png';
+import logo from 'assets/img/logo.png';
 //import logo from 'assets/img/logo.png';
 import React from "react";
 // reactstrap components
@@ -10,7 +10,10 @@ class AboutUs extends React.Component {
       <>
         <div className="content">
           {/* CODE GOES HERE INSIDE THE <DIV> */}
-          <img id="team" src={logo} alt="Logo" />;
+          <div id="logo-div">
+            <img id="logo-image" src={logo} alt="Logo" />
+          </div>
+
           <h3 id="ab1">Laurier Robotics</h3>
           <p id="p1">We are a group of students who share a passion for robotics and are dedicated to bring our knowledge and experience into the design and building of our robots. We strive to explore the field of robotics and we love to give the Laurier community opportunities to get involved by offering various workshops and events.</p>
           <h3 id="ab2">Our Mission Statement</h3>
