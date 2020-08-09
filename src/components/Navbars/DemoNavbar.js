@@ -112,7 +112,7 @@ class Header extends React.Component {
             <NavbarBrand>{this.getBrand()}</NavbarBrand>
           </div>
           <div className="justify-content-end">
-            <img id='logoMedia' src={logo} />
+            <img id='logoMedia' src={logo} alt="logo" />
           </div>
         </Container>
       </Navbar >

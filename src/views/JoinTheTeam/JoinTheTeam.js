@@ -1,14 +1,13 @@
 import React from "react";
-
+import "./JoinTheTeam.css";
 
 class JoinTheTeam extends React.Component {
   render() {
     return (
       <>
         <div className="content">
-          {/* CODE GOES HERE INSIDE THE <DIV> */}
           <p style={{ fontFamily: "'Roboto', sans- serif" }}>Even if you don't meet the qualifications feel free to apply.</p>
-          <table class="table table-dark">
+          <table className="table table-dark">
             <thead>
               <tr>
                 <th scope="col">Position</th>
