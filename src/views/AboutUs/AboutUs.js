@@ -10,8 +10,8 @@ class AboutUs extends React.Component {
       <>
         <div className="content">
           {/* CODE GOES HERE INSIDE THE <DIV> */}
-          <div id="logo-div">
-            <img id="logo-image" src={logo} alt="Logo" />
+          <div id="about-us-logo-div">
+            <img id="about-us-logo-image" src={logo} alt="Logo" />
           </div>
 
           <h3 id="ab1">Laurier Robotics</h3>
