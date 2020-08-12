@@ -33,30 +33,16 @@ class JoinTheTeam extends React.Component {
                 <td>baig9620@mylaurier.ca</td>
               </tr>
               <tr>
-                <th scope="row">Software Engineer</th>
-                <td>Software</td>
-                <td>Basic understanding of computer vision, Tensorflow, python and deep learning neural networks</td>
-                {/* <td>N/A</td> */}
-                <td>baig9620@mylaurier.ca</td>
-              </tr>
-              <tr>
                 <th scope="row">Hardware Engineer</th>
                 <td>Hardware</td>
-                <td>Basic understanding of remote control cars, Arduino/Raspberry Pi and electric circuits</td>
+                <td>Experience with 3D modeling systems and autodesk inventor, an understanding of circuits and a willingness to learn</td>
                 {/* <td>N/A</td> */}
                 <td>kawa0080@mylaurier.ca</td>
               </tr>
               <tr>
                 <th scope="row">Hardware Engineer</th>
                 <td>Hardware</td>
-                <td>Basic understanding of remote control cars, Arduino/Raspberry Pi and electric circuits</td>
-                {/* <td>N/A</td> */}
-                <td>kawa0080@mylaurier.ca</td>
-              </tr>
-              <tr>
-                <th scope="row">Hardware Engineer</th>
-                <td>Hardware</td>
-                <td>Basic understanding of remote control cars, Arduino/Raspberry Pi and electric circuits</td>
+                <td>Experience with 3D modeling systems and autodesk inventor, an understanding of circuits and a willingness to learn</td>
                 {/* <td>N/A</td> */}
                 <td>kawa0080@mylaurier.ca</td>
               </tr>
