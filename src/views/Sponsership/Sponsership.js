@@ -1,5 +1,5 @@
 import React from "react";
-import { } from "./Sponsorship.css";
+import { } from "./Sponsership.css";
 // reactstrap components
 /*import {
   Card,

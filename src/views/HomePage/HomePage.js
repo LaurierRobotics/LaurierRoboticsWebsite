@@ -11,7 +11,7 @@ class HomePage extends React.Component {
             <img id="logo-image" src={logo} alt="Logo" />
           </div>
           <h1 id="heading">Wilfrid Laurier University Robotics
-            <p>Found in 2016</p>
+            <p>Founded in 2016</p>
           </h1>
         </div>
       </>

@@ -45,7 +45,7 @@ var routes = [
   },
   {
     path: "/sponsership",
-    name: "Sponsership",
+    name: "Sponsorship",
     icon: "nc-icon nc-briefcase-24",
     component: Sponsership,
     layout: "/admin",
