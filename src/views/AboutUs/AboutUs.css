@@ -4,14 +4,15 @@
     margin: 0;
     padding: 0;
 }
-#logo-div {
+#about-us-logo-div {
     text-align: center;
 }
-#logo-image {
-    width: 80%;
-    align-items: center;
+#about-us-logo-image {
+    width: 40em;
+    height: auto;
+    /* align-items: center;
     justify-content: center;
-    padding: 0px;
+    padding: 0px; */
 }
 
 #ab1 {
