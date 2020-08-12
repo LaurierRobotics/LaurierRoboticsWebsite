@@ -118,7 +118,7 @@ class MeetTheTeam extends React.Component {
 
                     <h3>
                       LinkedIn: {''}
-                      <a href="https://www.linkedin.com/in/ahmar-baig-915a47177/" target="blank">
+                      <a href="https://www.linkedin.com/in/lakshyakawatra/" target="blank">
                         @Lakshya Kawatra
                         </a>
                     </h3>
