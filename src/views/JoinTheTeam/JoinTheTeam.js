@@ -6,7 +6,7 @@ class JoinTheTeam extends React.Component {
     return (
       <>
         <div className="content">
-          <p style={{ fontFamily: "'Roboto', sans- serif" }}>Even if you don't meet the qualifications feel free to apply.</p>
+          <p>Even if you don't meet the qualifications feel free to apply.</p>
           <table className="table table-dark">
             <thead>
               <tr>
@@ -48,12 +48,12 @@ class JoinTheTeam extends React.Component {
               </tr>
             </tbody>
           </table>
-          <p style={{ fontFamily: "'Roboto', sans- serif" }}>Feel free to Email the address in the "EMAIL" column if you are interested in any of the positions available. If there are no positions listed, we still welcome you to reach out to us at
+          <p>Feel free to Email the address in the "EMAIL" column if you are interested in any of the positions available. If there are no positions listed, we still welcome you to reach out to us at
           <a href="mailto:lauriobotics@gmail.com">
               {' '}lauriobotics@gmail.com
           </a>.
           </p>
-          <p style={{ fontFamily: "'Roboto', sans- serif" }}>Everyone, of different color, region, beliefs, and gender are welcome.</p>
+          <p>Everyone, of different colours, regions, beliefs, and genders are welcome.</p>
         </div>
       </>
     );
