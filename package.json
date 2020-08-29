@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4.5.0",
-    "firebase": "^7.17.2",
+    "emailjs-com": "^2.6.3",
+    "firebase": "^7.19.1",
     "firebase-tools": "^8.7.0",
     "node-sass": "4.14.1",
     "perfect-scrollbar": "^1.5.0",

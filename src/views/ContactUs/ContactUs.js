@@ -1,6 +1,7 @@
 import IG from 'assets/img/IG.png';
 import Link from 'assets/img/Link.png';
 import React from "react";
+import ContactForm from '../../components/contactForm';
 import { } from "./ContactUs.css";
 class ContactUs extends React.Component {
 
@@ -11,19 +12,15 @@ class ContactUs extends React.Component {
         <p>
           <a href="mailto:lauriobotics@gmail.com">
             lauriobotics@gmail.com
-            </a>
+          </a>
         </p>
         <br />
         <p>For inquiries about sponsership, please send us an email at </p>
         <p>
           <a href="mailto:dang1370@mylaurier.ca">
             dang1370@mylaurier.ca
-            </a>
+          </a>
         </p>
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         <p>Follow and connect with us on Instagram and LinkedIn to stay up to date on the latest news !</p>
         <ul>
@@ -36,6 +33,10 @@ class ContactUs extends React.Component {
             </a>
           </li>
         </ul>
+        <div className="container">
+          <p>Contact us directly and we'll get back to you as soon as we can </p>
+          <ContactForm />
+        </div>
       </div>
     );
   }
