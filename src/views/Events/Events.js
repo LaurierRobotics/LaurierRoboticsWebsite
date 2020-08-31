@@ -4,14 +4,8 @@ import { Card } from "react-bootstrap";
 import photo1 from '../../assets/img/ahmardp.jpg';
 
 const Events = () => {
-  // return (
-  //   <>
-  //     <div className="content">
-  //       {/* CODE GOES HERE INSIDE THE <DIV> */}
-  //       <h2 id="h2">Coming Soon...</h2>
-  //     </div>
-  //   </>
-  // );
+
+  //These are just random and placeholder images
   const cardInfo = [
     {
       image: photo1,
