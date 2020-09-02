@@ -3,17 +3,3 @@
     text-align: center;
     color: #4B0082;
 }
-
-.box {
-  margin: 20px;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.content > div {
-  flex-basis: calc(50% - 40px);
-}
