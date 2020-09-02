@@ -40,7 +40,16 @@ const Events = () => {
 
   return (
     <div className="content">
-      {cardInfo.map(renderCard)}
+      {cardInfo.length > 0 && (
+        <div>
+          {cardInfo.map(renderCard)}
+        </div>
+      )}
+      {cardInfo.length === 0 && (
+        <div>
+          <h2 id="h2">No Events available at the moment</h2>
+        </div>
+      )}
     </div>
   );
 }
