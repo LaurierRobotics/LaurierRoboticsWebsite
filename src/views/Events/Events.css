@@ -1,5 +1,19 @@
-#h2 {
+#events-h2 {
     font-family: 'Roboto' sans-serif;
     text-align: center;
     color: #4B0082;
+}
+
+#box {
+  margin: 20px;
+}
+
+#events-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#events-div > div {
+  flex-basis: calc(50% - 40px);
 }
