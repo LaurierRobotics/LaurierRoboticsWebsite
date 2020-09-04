@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { } from "./Events.css";
-import { Card } from "react-bootstrap";
-import photo1 from '../../assets/img/ahmardp.jpg';
+import Modal from 'react-modal';
 
 const Events = () => {
   // return (
@@ -14,7 +13,7 @@ const Events = () => {
   // );
   const cardInfo = [
     {
-      image: photo1,
+      image: "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
       title: "Welcome Event",
       text: "First event of the year",
     },
@@ -32,17 +31,46 @@ const Events = () => {
     },
   ];
 
+  const [isOpen, setIsOpen] = useState(false);
+
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: "18rem" }} key={index} className="box" id="box">
-        <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.text}</Card.Text>
-        </Card.Body>
-      </Card>
+      <div className="card" style={{ width: '18rem', margin: '1rem' }} key={index}>
+        <img className="card-img-top" src={card.image} alt="Card image cap"></img>
+        <div className="card-body">
+          <h5 className="card-title">{card.title}</h5>
+          <p className="card-text">{card.text}</p>
+          <a href="in.html" className="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     );
   };
+
+  const renderEventModal = (card) => {
+    setIsOpen(true);
+    console.log("Pressed!")
+    return (
+      <Modal
+        isOpen={isOpen}
+        onRequestClose={() => setIsOpen(false)}
+        style={
+          {
+            overlay: {
+              backgroundColor: 'grey'
+            },
+            content: {
+              color: 'purple'
+            }
+          }
+        }>
+        {/* <img src={image}></img> */}
+        <h2 style={{ textAlign: 'center' }}>{card.title}</h2>
+        <p style={{ textAlign: 'center' }}>{card.text}</p>
+        <a href="#" style={{ textAlign: 'center' }}>Event Details</a>
+        <button onClick={() => setIsOpen(false)}>Close</button>
+      </Modal>
+    );
+  }
 
   const renderAllItems = () => {
     return (
