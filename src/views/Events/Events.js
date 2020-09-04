@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { } from "./Events.css";
 import { Card } from "react-bootstrap";
 import photo1 from '../../assets/img/ahmardp.jpg';
-import Modal from 'react-modal';
 
 const Events = () => {
   // return (
@@ -33,8 +32,6 @@ const Events = () => {
     },
   ];
 
-  const [isOpen, setIsOpen] = useState(false);
-
   const renderCard = (card, index) => {
     return (
       <Card style={{ width: "18rem" }} key={index} className="box" id="box">
@@ -46,40 +43,6 @@ const Events = () => {
       </Card>
     );
   };
-
-  const evalModal = (card) => {
-    console.log("Pressed")
-    setIsOpen(!isOpen);
-    if (isOpen) {
-      renderEventModal(card.title, card.image, card.text);
-    }
-  }
-
-  const renderEventModal = (title, image, text) => {
-    return (
-      <div id="modal-div">
-        <Modal
-          isOpen={isOpen}
-          onRequestClose={() => setIsOpen(false)}
-          style={
-            {
-              overlay: {
-                backgroundColor: 'grey'
-              },
-              content: {
-                color: 'purple'
-              }
-            }
-          }>
-          {/* <img src={image}></img> */}
-          <h2 style={{ textAlign: 'center' }}>{title}</h2>
-          <p style={{ textAlign: 'center' }}>{text}</p>
-          <a href="#" style={{ textAlign: 'center' }}>Event Details</a>
-          <button onClick={() => setIsOpen(false)}>Close</button>
-        </Modal>
-      </div>
-    );
-  }
 
   const renderAllItems = () => {
     return (

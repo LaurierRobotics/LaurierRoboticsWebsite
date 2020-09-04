@@ -17,9 +17,3 @@
 #events-div > div {
   flex-basis: calc(50% - 40px);
 }
-
-#modal-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
