@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { } from "./Events.css";
 import Modal from 'react-modal';
+import { Link, Route, Switch, BrowserRouter, NavLink } from 'react-router-dom';
+import EventDetails from "./EventDetails";
 
 const Events = () => {
   // return (
@@ -40,7 +42,13 @@ const Events = () => {
         <div className="card-body">
           <h5 className="card-title">{card.title}</h5>
           <p className="card-text">{card.text}</p>
-          <a href="in.html" className="btn btn-primary">Go somewhere</a>
+          <NavLink
+            className="nav-link"
+            activeClassName="active"
+            to="/admin/eventDetails">
+            Go Somewhere
+          </NavLink>
+          <a href="/EventDetails" className="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     );
@@ -50,25 +58,26 @@ const Events = () => {
     setIsOpen(true);
     console.log("Pressed!")
     return (
-      <Modal
-        isOpen={isOpen}
-        onRequestClose={() => setIsOpen(false)}
-        style={
-          {
-            overlay: {
-              backgroundColor: 'grey'
-            },
-            content: {
-              color: 'purple'
-            }
-          }
-        }>
-        {/* <img src={image}></img> */}
-        <h2 style={{ textAlign: 'center' }}>{card.title}</h2>
-        <p style={{ textAlign: 'center' }}>{card.text}</p>
-        <a href="#" style={{ textAlign: 'center' }}>Event Details</a>
-        <button onClick={() => setIsOpen(false)}>Close</button>
-      </Modal>
+      // <Modal
+      //   isOpen={isOpen}
+      //   onRequestClose={() => setIsOpen(false)}
+      //   style={
+      //     {
+      //       overlay: {
+      //         backgroundColor: 'grey'
+      //       },
+      //       content: {
+      //         color: 'purple'
+      //       }
+      //     }
+      //   }>
+      //   {/* <img src={image}></img> */}
+      //   <h2 style={{ textAlign: 'center' }}>{card.title}</h2>
+      //   <p style={{ textAlign: 'center' }}>{card.text}</p>
+      //   <a href="#" style={{ textAlign: 'center' }}>Event Details</a>
+      //   <button onClick={() => setIsOpen(false)}>Close</button>
+      // </Modal>
+      <EventDetails />
     );
   }
 
@@ -91,6 +100,11 @@ const Events = () => {
 
   return (
     <>
+      {/* <BrowserRouter>
+        <Switch>
+          <Route path="/eventDetails" component={EventDetails} />
+        </Switch>
+      </BrowserRouter> */}
       {cardInfo.length > 0 && renderAllItems()}
       {cardInfo.length === 0 && renderNoItems()}
     </>

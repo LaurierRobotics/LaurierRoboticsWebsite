@@ -39,10 +39,15 @@ class Header extends React.Component {
     });
   }
   getBrand() {
-    let brandName = "Default Brand";
+    let brandName = "Default Page";
     routes.map((prop, key) => {
       if (window.location.href.indexOf(prop.layout + prop.path) !== -1) {
-        brandName = prop.name;
+
+        if (prop.name === "Event Details") {
+          brandName = '';
+        } else {
+          brandName = prop.name;
+        }
       }
       return null;
     });

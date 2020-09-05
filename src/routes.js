@@ -6,6 +6,7 @@ import JoinTheTeam from "views/JoinTheTeam/JoinTheTeam.js";
 import MeetTheTeam from "views/MeetTheTeam/MeetTheTeam.js";
 import Projects from "views/Projects/Projects.js";
 import Sponsership from "views/Sponsership/Sponsership.js";
+import EventDetails from "views/Events/EventDetails";
 
 var routes = [
   {
@@ -55,6 +56,13 @@ var routes = [
     name: "Join The Team",
     icon: "nc-icon nc-favourite-28",
     component: JoinTheTeam,
+    layout: "/admin",
+  },
+  {
+    path: "/eventDetails",
+    name: "Event Details",
+    icon: "nc-icon nc-favourite-28",
+    component: EventDetails,
     layout: "/admin",
   },
   {
