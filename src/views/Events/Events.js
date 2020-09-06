@@ -45,10 +45,17 @@ const Events = () => {
           <NavLink
             className="nav-link"
             activeClassName="active"
-            to="/admin/eventDetails">
-            Go Somewhere
+            to={{
+              pathname: "/admin/eventDetails",
+              cardProp: {
+                // card: card,
+                image: card.image,
+                title: card.title,
+                text: card.text
+              }
+            }}>
+            View Details
           </NavLink>
-          <a href="/EventDetails" className="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     );
