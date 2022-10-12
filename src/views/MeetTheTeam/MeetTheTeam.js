@@ -26,6 +26,7 @@ class MeetTheTeam extends React.Component {
                       className="avatar border-gray"
                       src={require("assets/img/lakshya.jpeg")}
                     />
+                           #
 
                     <h2>Lakshya Kawatra <br />Co-President</h2>
 
