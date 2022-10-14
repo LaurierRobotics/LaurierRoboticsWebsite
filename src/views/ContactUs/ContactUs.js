@@ -18,7 +18,7 @@ class ContactUs extends React.Component {
         <p>For inquiries about sponsership, please send us an email at </p>
         <p>
           <a href="mailto:dang1370@mylaurier.ca">
-            dang1370@mylaurier.ca
+            zoux0770@mylaurier.ca
           </a>
         </p>
         <br />
