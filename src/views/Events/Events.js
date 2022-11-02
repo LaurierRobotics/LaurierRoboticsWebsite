@@ -29,7 +29,7 @@ const Events = () => {
       image:
         "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
       title: "Steph Curry",
-      text: "he real good",
+      text: "he good",
     },
   ];
 
