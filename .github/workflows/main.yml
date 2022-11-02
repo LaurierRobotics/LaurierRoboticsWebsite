@@ -12,6 +12,7 @@ jobs:
     - name: Build
       run: |
         npm ci
+        npm install node-sass
         npm run build
       env: 
           CI: false
