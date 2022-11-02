@@ -26,26 +26,26 @@ class MeetTheTeam extends React.Component {
                       className="avatar border-gray"
                       src={require("assets/img/lakshya.jpeg")}
                     />
-                           #
+                    #
 
                     <h2>Lakshya Kawatra <br />Co-President</h2>
 
-                    <h3>Program: Computer Science </h3>
+                    <h3>Program: Computer Science and Business</h3>
 
-                    <h3>Year: 2</h3>
+                    <h3>Year: 4</h3>
 
                     <h3>
                       LinkedIn: {''}
                       <a href="https://www.linkedin.com/in/lakshyakawatra/" target="blank">
-                         @Lakshya Kawatra
-                        </a>
+                        @Lakshya Kawatra
+                      </a>
                     </h3>
 
                     <h3>
                       Email: {''}
                       <a href="mailto:kawa0080@mylaurier.ca" target="blank">
                         kawa0080@mylaurier.ca
-                        </a>
+                      </a>
                     </h3>
                   </div>
                 </CardBody>
@@ -65,27 +65,27 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/mathuran.jpeg")}
+                      src={require("assets/img/Yining Zou.jpg")}
                     />
 
-                    <h2>Mathuran Mangaleswaran <br /> Co-President</h2>
+                    <h2>Yining Zou<br /> Co-President</h2>
 
-                    <h3>Program: Computer Science</h3>
+                    <h3>Program: Finance and Business</h3>
 
-                    <h3>Year: 5</h3>
+                    <h3>Year: 4</h3>
 
                     <h3>
                       LinkedIn: {''}
-                      <a href="http://linkedin.com/in/mathuran-mangaleswaran-1a721b175" target="blank">
-                        @Mathuran Mangaleswaran
-                        </a>
+                      <a href="https://www.linkedin.com/in/yining-zou-81754b19b/" target="blank">
+                        @Yining Zou
+                      </a>
                     </h3>
 
                     <h3>
                       Email: {''}
-                      <a href="mailto:mailto:mang8970@mylaurier.ca" target="blank">
-                        mang8970@mylaurier.ca
-                        </a>
+                      <a href="mailto:zoux0770@mylaurier.ca" target="blank">
+                        zoux0770@mylaurier.ca
+                      </a>
                     </h3>
                   </div>
                 </CardBody>
@@ -108,7 +108,7 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/Yining Zou.jpeg")}
+                      src={require("assets/img/Yining Zou.jpg")}
                     />
 
                     <h2>Lakshya Kawatra <br /> VP of Finance</h2>
@@ -121,14 +121,14 @@ class MeetTheTeam extends React.Component {
                       LinkedIn: {''}
                       <a href="https://www.linkedin.com/in/yining-zou/" target="blank">
                         @Yining Zou
-                        </a>
+                      </a>
                     </h3>
 
                     <h3>
                       Email: {''}
                       <a href="mailto:kawa0080@mylaurier.ca" target="blank">
                         kawa0080@mylaurier.ca
-                        </a>
+                      </a>
                     </h3>
 
                     <h3>
@@ -165,14 +165,14 @@ class MeetTheTeam extends React.Component {
                       LinkedIn: {''}
                       <a href="https://www.linkedin.com/in/dhanush-mohan-kumar-23790b184/" target="blank">
                         @Dhanush Mohan
-                        </a>
+                      </a>
                     </h3>
 
                     <h3>
                       Email: {''}
                       <a href="mailto:baig9620@mylaurier.ca" target="blank">
                         baig9620@mylaurier.ca
-                        </a>
+                      </a>
                     </h3>
 
                     <h3>
@@ -186,7 +186,7 @@ class MeetTheTeam extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-<Col md="4">
+            <Col md="4">
               <Card className="card-user">
                 <div className="image">
                   <img
@@ -212,14 +212,14 @@ class MeetTheTeam extends React.Component {
                       LinkedIn: {''}
                       <a href="https://www.linkedin.com/in/devpatel7878/" target="blank">
                         @Dev Patel
-                        </a>
+                      </a>
                     </h3>
 
                     <h3>
                       Email: {''}
                       <a href="mailto:pate5400@mylaurier.ca" target="blank">
                         pate5400@mylaurier.ca
-                        </a>
+                      </a>
                     </h3>
 
                     <h3>
@@ -233,59 +233,7 @@ class MeetTheTeam extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-
-            <Col md="4">
-              <Card className="card-user">
-                <div className="image">
-                  <img
-                    alt="..."
-                    src={require("assets/img/financebg.jpg")}
-                  />
-                </div>
-                <CardBody>
-                  <div className="author">
-                    <img
-                      alt="..."
-                      className="avatar border-gray"
-                      src={require("assets/img/Yining Zou.jpg")}
-                    />
-
-                    <h2>Yining Zou <br /> VP of Finance</h2>
-
-                    <h3>Program: BBA and Math</h3>
-
-                    <h3>Year: 4</h3>
-
-                    <h3>
-                      LinkedIn: {''}
-                      <a href="https://www.linkedin.com/in/mai-dang-9a5b9b168/" target="blank">
-                        @Mai Dang
-                        </a>
-                    </h3>
-
-                    <h3>
-                      Email: {''}
-                      <a href="mailto:zoux0770@mylaurier.ca" target="blank">
-                        zoux0770@mylaurier.ca
-                        </a>
-                    </h3>
-
-                    <h3>
-                      Team Members:
-                    </h3>
-                    <ul id="teamNames">
-                      <li>Monkia Khamphavong</li>
-                      <li>Sienne Lee</li>
-                      <li>Amber Dsilva</li>
-                      <li>Kiara Yllescas</li>
-                      <li>Melissa Pinto</li>
-                    </ul>
-                  </div>
-                </CardBody>
-              </Card>
-            </Col>
           </Row>
-
         </div>
       </>
     );
