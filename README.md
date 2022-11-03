@@ -1,5 +1,2 @@
 # LaurierRoboticsWebsite
-This is the project for the Laurier Robotics Website.
-
-Contributors:
-
+This is the project for the Laurier Robotics Website
