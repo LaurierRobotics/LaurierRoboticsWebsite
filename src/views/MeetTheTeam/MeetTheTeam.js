@@ -65,7 +65,7 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/Yining Zou.jpg")}
+                      src={require("assets/img/Yining Zou.jpeg")}
                     />
 
                     <h2>Yining Zou<br /> Co-President</h2>
@@ -100,7 +100,7 @@ class MeetTheTeam extends React.Component {
                 <div className="image">
                   <img
                     alt="..."
-                    src={require("assets/img/hardwarebg.jpg")}
+                    src={require("assets/img/hardwarebg.jpeg")}
                   />
                 </div>
                 <CardBody>
@@ -108,7 +108,7 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/Yining Zou.jpg")}
+                      src={require("assets/img/Yining Zou.jpeg")}
                     />
 
                     <h2>Lakshya Kawatra <br /> VP of Finance</h2>
@@ -152,7 +152,7 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/Dhanush Mohan.jpg")}
+                      src={require("assets/img/Dhanush Mohan.jpeg")}
                     />
 
                     <h2>Dhanush Mohan Kumar <br /> VP of Software</h2>
@@ -199,7 +199,7 @@ class MeetTheTeam extends React.Component {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/Dev Patel.jpg")}
+                      src={require("assets/img/Dev Patel.jpeg")}
                     />
 
                     <h2>Dev Patel <br /> VP of WebDev</h2>
