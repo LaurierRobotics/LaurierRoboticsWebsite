@@ -6,7 +6,7 @@
     "bootstrap": "4.5.0",
     "emailjs-com": "^2.6.3",
     "firebase": "^7.19.1",
-    "firebase-tools": "^8.7.0",
+    "firebase-tools": "^11.16.0",
     "node-sass": "4.14.1",
     "perfect-scrollbar": "^1.5.0",
     "react": "^16.13.1",
@@ -15,7 +15,7 @@
     "react-notification-alert": "0.0.12",
     "react-router": "^5.2.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "reactstrap": "8.4.1"
   },
   "scripts": {
