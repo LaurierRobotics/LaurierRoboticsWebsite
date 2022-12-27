@@ -7,7 +7,6 @@
     "emailjs-com": "^2.6.3",
     "firebase": "^7.19.1",
     "firebase-tools": "^8.7.0",
-    "node-sass": "4.14.1",
     "perfect-scrollbar": "^1.5.0",
     "react": "^16.13.1",
     "react-dom": "16.13.1",
@@ -19,8 +18,8 @@
     "reactstrap": "8.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && gulp licenses",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -45,6 +44,7 @@
   },
   "devDependencies": {
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.8"
+    "gulp-append-prepend": "1.0.8",
+    "sass": "^1.57.1"
   }
 }
