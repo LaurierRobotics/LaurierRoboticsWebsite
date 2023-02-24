@@ -1,0 +1,8 @@
+.content {
+    overflow-x: auto;
+}
+
+.content p {
+    font-family: 'Roboto' sans-serif;
+    text-align: center;
+}

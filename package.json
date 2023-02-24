@@ -18,8 +18,8 @@
     "reactstrap": "8.4.1"
   },
   "scripts": {
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build && gulp licenses",
-    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build && gulp licenses",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     
     "test": "react-scripts test",
     "eject": "react-scripts eject",
